@@ -5,12 +5,6 @@
 
 ---
 
-## 📺 Project Demo
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
-*(Click above to watch the 2-minute walkthrough)*
-
----
-
 ## 🎯 The Problem
 In the modern enterprise, **Dashboards are dead.** Executives and managers are drowning in CSVs and Tableau charts. They can see *that* revenue is down, but they have to spend hours digging into rows of data to understand *why*, and even longer to figure out *what to do about it*.
 
