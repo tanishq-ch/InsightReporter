@@ -82,10 +82,10 @@ GOOGLE_API_KEY=your_actual_api_key_here
 Create a realistic enterprise dataset (5 years of history) with one command:
 ```bash
 python data_generator.py
-
+```
 *Output: `✅ Generated 60 months of data with 6 metrics.`*
 
-```
+
 ### Step 4: Run the App
 ```bash
 streamlit run main_app.py
@@ -116,6 +116,6 @@ InsightReporter/
     ├── tools.py           # Python Data Analysis Tools
     └── agents.py          # AI Agent Logic, Retry Logic & Observability
 
-
+```
 ## 🏆 Innovation & Impact
 While many agents act as passive chatbots, **InsightReporter** is a **Proactive Intelligence System**. It demonstrates how LLMs can bridge the gap between "Data Science" and "Executive Summary," reducing the time-to-insight from hours to seconds.
