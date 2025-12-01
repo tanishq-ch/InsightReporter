@@ -3,9 +3,6 @@
 
 > **"Stop looking at dashboards. Start reading the story."**
 
-![InsightReporter Screenshot](https://via.placeholder.com/1200x600.png?text=Replace+This+With+Your+Actual+Screenshot+Link)
-*(Note: Please view the Media Gallery on Kaggle for the full demo video and screenshots.)*
-
 ---
 
 ## 🎯 The Problem
@@ -74,11 +71,13 @@ git clone [https://github.com/YOUR_USERNAME/InsightReporter.git](https://github.
 cd InsightReporter
 pip install -r requirements.txt
 
+```
 ### Step 2: Configure API Key
 Create a `.env` file in the root directory (do not upload this to GitHub):
 ```bash
 GOOGLE_API_KEY=your_actual_api_key_here
 
+```
 ### Step 3: Generate Mock Data
 Create a realistic enterprise dataset (5 years of history) with one command:
 ```bash
@@ -86,10 +85,12 @@ python data_generator.py
 
 *Output: `✅ Generated 60 months of data with 6 metrics.`*
 
+```
 ### Step 4: Run the App
 ```bash
 streamlit run main_app.py
 
+```
 ## 📖 Usage Guide
 1.  **Load Data:** The app automatically loads the `company_data.csv`. You can view the raw dataframe and charts on the left panel.
 2.  **Dispatch Agents:** Click the **"🚀 Dispatch Agent Team"** button.
